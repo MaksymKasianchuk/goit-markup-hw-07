@@ -1,0 +1,24 @@
+.logo {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+
+  &-second-part {
+    color: $logo-second-part-color;
+    .footer-content & {
+      color: $white-color;
+    }
+  }
+  .footer-content & {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .navigation & {
+    margin-right: 90px;
+  }
+}

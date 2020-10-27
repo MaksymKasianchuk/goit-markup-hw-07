@@ -1,0 +1,49 @@
+.benefits-list {
+  display: flex;
+
+  &-item {
+    width: 270px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: $filter-btn-color;
+    margin-bottom: 30px;
+
+    &-svg {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  &-head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $titles-color;
+    margin-bottom: 10px;
+
+    &:nth-child()::before {
+      background-image: url(../images/benefities/antenna.svg);
+    }
+  }
+  &-discription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $description-color;
+  }
+}

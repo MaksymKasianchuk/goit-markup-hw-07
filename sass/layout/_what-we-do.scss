@@ -1,0 +1,33 @@
+.what-we-do {
+  padding-bottom: 94px;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-content {
+    position: relative;
+  }
+
+  &-text-background {
+    position: absolute;
+    display: inline-flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+  }
+
+  &-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+}

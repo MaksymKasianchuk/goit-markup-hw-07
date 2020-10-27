@@ -1,0 +1,20 @@
+//utils
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+//base
+@import './base/common';
+@import './base/container';
+
+//components
+@import './components/social-link';
+@import './components/social-svg';
+@import './components/modal-btn';
+@import './components/section-title';
+@import './components/logo';
+@import './components/accent';
+
+//layouts
+@import './layout/header';
+@import './layout/portfolio';
+@import './layout/footer';
