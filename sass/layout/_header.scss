@@ -18,13 +18,12 @@
       height: 16px;
       fill: $unactive-interactive-element;
       margin-right: 10px;
-
-      .header-list-link:hover & {
-        fill: $accent-color;
-      }
-      .header-list-link:focus & {
-        fill: $accent-color;
-      }
+    }
+    .header-list-link:hover &-svg {
+      fill: $accent-color;
+    }
+    .header-list-link:focus &-svg {
+      fill: $accent-color;
     }
   }
 

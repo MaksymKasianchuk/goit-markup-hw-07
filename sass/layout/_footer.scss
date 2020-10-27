@@ -55,20 +55,20 @@
 
     &-link {
       background-color: rgba(255, 255, 255, 0.1);
-      &:hover,
-      &:focus {
-        background-color: $accent-color;
-      }
+    }
+    &-link:hover,
+    &-link:focus {
+      background-color: $accent-color;
     }
 
     &-svg {
       fill: $white-color;
-      .footer-social-list-link:hover & {
-        fill: $white-color;
-      }
-      .footer-social-list-link:focus & {
-        fill: $white-color;
-      }
+    }
+    .footer-social-list-link:hover &-svg {
+      fill: $white-color;
+    }
+    .footer-social-list-link:focus &-svg {
+      fill: $white-color;
     }
   }
 }
